@@ -46,17 +46,22 @@ catkin_make
 source ./devel/setup.bash
 # (1) Control with keyboard
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-# (2.1) Control with Joystick
+
+# (2) Control with Husky Joystick
+export HUSKY_LOGITECH=1
+roslaunch husky_control teleop.launch
+# Control with Joy Stick (Logitech, State X (not D), Mode light off. Hold L1/L2 and Left Thumb for Direction)
+
+# (3.1) Control with Default Joystick
 rosrun joy joy_node
-# (2.2) Open another terminal
+# (3.2) Open another terminal
 cd ~/husky_ws/
 source ./devel/setup.bash
 rosrun teleop_twist_joy teleop_node
 # Control with Joy Stick (Logitech, State X (not D), Mode light off. Hold A and Left Thumb for Direction)
-# (The controls may differ on different environments, so you can try out something like holding L1/R1 and control with Left Thumb etc.)
 ```
 
-More examples are provided in [this repo](https://github.com/husky/husky).
+More package sources are provided in [this repo](https://github.com/husky/husky).
 
 ## Troubleshooting
 
