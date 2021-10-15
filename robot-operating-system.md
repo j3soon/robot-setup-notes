@@ -39,6 +39,22 @@ You should now know how to communicate using ROS between nodes.
 
 For more details, see [the tutorial](https://wiki.ros.org/ROS/Tutorials).
 
+## Using Python3
+
+By default, ROS uses Python2. To change it to Python3, first `cd` into your workspace, then:
+
+```sh
+# ROS
+source /opt/ros/<distro>/setup.bash
+# For your ROS workspace
+source devel/setup.bash
+sudo apt install -y virtualenv
+virtualenv venv -p python3
+source venv/bin/activate
+# For ROS in Python3
+pip install pyyaml rospkg
+```
+
 ## Environment Setup
 
 To access ROS, make sure to run:
