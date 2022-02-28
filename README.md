@@ -2,8 +2,8 @@
 
 Provide some notes for setting up environment for robotics.
 
-- [NVIDIA Jetson](nvidia-jetson.md)
-- [Stereolabs ZED Camera](stereolabs-zed-camera.md)
-- [Robot Operating System](robot-operating-system.md)
-- [ClearPath Husky](clearpath-husky.md)
-- [Iclebo Kobuki](iclebo-kobuki.md)
+- [NVIDIA Jetson](https://j3soon.com/cheatsheets/nvidia-jetson/)
+- [Stereolabs ZED Camera](https://j3soon.com/cheatsheets/stereolabs-zed-camera/)
+- [Robot Operating System](https://j3soon.com/cheatsheets/robot-operating-system/)
+- [ClearPath Husky](https://j3soon.com/cheatsheets/clearpath-husky/)
+- [Iclebo Kobuki](https://j3soon.com/cheatsheets/iclebo-kobuki/)
